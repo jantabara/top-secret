@@ -27,7 +27,12 @@ const Navbar = () => {
 
   const _renderLogo = () => {
     return (
-      <div style={{ width: 125 }}>
+      <div
+        data-aos="fade-out"
+        data-aos-duration="1400"
+        className="pl-4 cursor-pointer"
+        style={{ width: 130 }}
+      >
         {textColor === colors.white ? (
           <img src="/edc_white.svg" />
         ) : (
@@ -45,10 +50,25 @@ const Navbar = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">{_renderLogo()}</Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4">
-            <Link href="/#work">ABOUT</Link>
+          <li className="py-4 px-2">
+            <Link data-aos="fade-out" data-aos-duration="1400" href="/#work">
+              ABOUT
+            </Link>
           </li>
-          <li className="p-4">
+          <li
+            data-aos="fade-out"
+            data-aos-duration="1400"
+            // data-aos-delay="100"
+            className="py-4 px-2"
+          >
+            <Link href="/#contact">BLOG</Link>
+          </li>
+          <li
+            data-aos="fade-out"
+            data-aos-duration="1400"
+            // data-aos-delay="200"
+            className="py-4 px-2"
+          >
             <Link href="/#contact">CONTACT</Link>
           </li>
         </ul>
@@ -65,26 +85,26 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
-              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
+              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center w-full h-screen mobile-nav text-right ease-in duration-300"
+              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center w-full h-screen mobile-nav text-right ease-in duration-300"
           }
         >
-          <ul>
+          <ul className="mt-12 px-4">
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="py-2 text-3xl hover:text-gray-500"
             >
               <Link href="/">Home</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="py-2 text-3xl hover:text-gray-500"
             >
               <Link href="/work">About Us</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="py-2 text-3xl hover:text-gray-500"
             >
               <Link href="/contact">Contact</Link>
             </li>
