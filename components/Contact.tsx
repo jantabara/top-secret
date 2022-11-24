@@ -26,8 +26,8 @@ const Contact = () => {
         />
         <textarea
           className="border shadow-lg p-3 w-full"
-          cols="30"
-          rows="10"
+          cols={30}
+          rows={10}
           placeholder="Message"
         ></textarea>
         <button className="border shadow-lg p-3 w-full mt-2">Submit</button>
