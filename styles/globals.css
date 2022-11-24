@@ -17,8 +17,33 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-.custom-img {
+.hero__custom-img {
   background-image: url("https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80");
+  height: 100vh;
+}
+
+.hero__custom-video {
+  display: none;
+}
+
+.hero__overlay {
+  height: 100vh;
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero__custom-video {
+    display: block;
+  }
+
+  .hero__custom-img {
+    background-image: none;
+  }
+
+  .hero,
+  .hero__overlay,
+  .hero__custom-video {
+    height: 680px;
+  }
 }
 
 .mobile-nav {
@@ -28,4 +53,13 @@ html::-webkit-scrollbar {
 
 .mobile-nav ul {
   width: 100%;
+}
+
+.navbar__link {
+  transition: all 0.5s ease-out;
+}
+
+.hero__heading,
+.navbar__link:hover {
+  color: orange;
 }

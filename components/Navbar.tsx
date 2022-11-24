@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
       <div
         data-aos="fade-out"
-        data-aos-duration="1400"
+        data-aos-duration="2000"
         className="pl-4 cursor-pointer"
         style={{ width: 130 }}
       >
@@ -50,24 +50,26 @@ const Navbar = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">{_renderLogo()}</Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="py-4 px-2">
-            <Link data-aos="fade-out" data-aos-duration="1400" href="/#work">
-              ABOUT
-            </Link>
+          <li
+            data-aos="fade-out"
+            data-aos-duration="2000"
+            className="navbar__link py-4 px-2"
+          >
+            <Link href="/#work">ABOUT</Link>
           </li>
           <li
             data-aos="fade-out"
-            data-aos-duration="1400"
-            // data-aos-delay="100"
-            className="py-4 px-2"
+            data-aos-duration="2000"
+            data-aos-delay="100"
+            className="navbar__link py-4 px-2"
           >
             <Link href="/#contact">BLOG</Link>
           </li>
           <li
             data-aos="fade-out"
-            data-aos-duration="1400"
-            // data-aos-delay="200"
-            className="py-4 px-2"
+            data-aos-duration="2000"
+            data-aos-delay="200"
+            className="navbar__link py-4 px-2"
           >
             <Link href="/#contact">CONTACT</Link>
           </li>
