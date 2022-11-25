@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Portfolio = () => {
+const About = () => {
   return (
     <div
       className="max-w-[1240px] mx-auto text-center pt-20"
@@ -65,4 +65,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default About;

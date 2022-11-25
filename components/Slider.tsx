@@ -19,7 +19,12 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div id="gallery" className="max-w-[1240px] mx-auto">
+    <div
+      id="gallery"
+      className="max-w-[1240px] mx-auto mt-16 pt-20"
+      data-aos="fade-up"
+      data-aos-duration="800"
+    >
       <h1 className="text-2xl font-bold text-center p-4">Gallery</h1>
       <div className="relative flex justify-center p-4">
         {SliderData.map((slide, index) => {

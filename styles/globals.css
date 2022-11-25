@@ -23,6 +23,7 @@ html::-webkit-scrollbar {
 }
 
 .hero__custom-video {
+  height: 100vh;
   display: none;
 }
 
@@ -35,16 +36,22 @@ html::-webkit-scrollbar {
     display: block;
   }
 
+  .hero__custom-video video {
+    max-width: unset;
+  }
+
   .hero__custom-img {
     background-image: none;
   }
+}
 
+/* @media only screen and (min-width: 1440px) {
   .hero,
   .hero__overlay,
   .hero__custom-video {
     height: 680px;
   }
-}
+} */
 
 .mobile-nav {
   background-color: rgba(0, 0, 0, 0.9);
