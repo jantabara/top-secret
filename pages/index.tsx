@@ -2,6 +2,7 @@ import Head from "next/head";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Hero from "../components/Hero";
+import Map from "../components/Map";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Slider slides={SliderData} />
       <Instagram /> */}
       <Contact />
+      <Map />
     </div>
   );
 }
