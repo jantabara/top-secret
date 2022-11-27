@@ -2,6 +2,14 @@ import React from "react";
 import GoogleMapReact from "google-map-react";
 import mapStyles from "../map.style";
 
+interface IMarker {
+  readonly lat: number;
+  readonly lng: number;
+  readonly text: string;
+}
+
+const Marker: React.FC<IMarker> = () => <p>šrrrrrrrr</p>;
+
 const Map = () => {
   const defaultProps = {
     center: {
@@ -21,11 +29,7 @@ const Map = () => {
           styles: mapStyles,
         }}
       >
-        {/* <Marker
-          lat={59.955413}
-          lng={30.337844}
-          text="My Marker"
-        /> */}
+        <Marker lat={49.1989227} lng={16.6181145} text="My Marker" />
       </GoogleMapReact>
     </div>
   );

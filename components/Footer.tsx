@@ -21,16 +21,18 @@ const Footer = () => {
         <div className="row">
           <div className="footer-col pl-8 md:pl-0">
             <h4>Contact & Address</h4>
-            <ul className="footer-row md:mt-4">
+            <ul className="footer-row mt-4">
               <li>Eight Digit Club s.r.o.</li>
               <li>Lidická 700/19, Veveří, 602 00 Brno</li>
               <li>Registration ID: 17423724</li>
               <li>
-                <a className="footer-email" href="mailto:info@8digit.club">info@8digit.club</a>
+                <a className="footer-email" href="mailto:info@8digit.club">
+                  info@8digit.club
+                </a>
               </li>
             </ul>
           </div>
-          <div className="footer-col pl-8 md:pl-0">
+          <div className="footer-col pl-8 md:pl-0 md:ml-16">
             <h4>Follow us</h4>
             <div className="social-links footer-row mt-4">
               <a href="#">
