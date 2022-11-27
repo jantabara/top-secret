@@ -20,55 +20,21 @@ const Footer = () => {
       >
         <div className="row">
           <div className="footer-col pl-8 md:pl-0">
-            <h4>company</h4>
-            <ul>
+            <h4>Contact & Address</h4>
+            <ul className="footer-row md:mt-4">
+              <li>Eight Digit Club s.r.o.</li>
+              <li>Lidická 700/19, Veveří, 602 00 Brno</li>
+              <li>Registration ID: 17423724</li>
               <li>
-                <a href="#">about</a>
-              </li>
-              <li>
-                <a href="#">our services</a>
-              </li>
-              <li>
-                <a href="#">privacy policy</a>
+                <a className="footer-email" href="mailto:info@8digit.club">info@8digit.club</a>
               </li>
             </ul>
           </div>
           <div className="footer-col pl-8 md:pl-0">
-            <h4>get help</h4>
-            <ul>
-              <li>
-                <a href="#">FAQ</a>
-              </li>
-              <li>
-                <a href="#">contact</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-col pl-8 md:pl-0">
-            <h4>blog</h4>
-            <ul>
-              <li>
-                <a href="#">latest articles</a>
-              </li>
-              <li>
-                <a href="#">featured</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-col pl-8 md:pl-0">
-            <h4>follow us</h4>
-            <div className="social-links">
+            <h4>Follow us</h4>
+            <div className="social-links footer-row mt-4">
               <a href="#">
-                <FaFacebook size={28} className="m-1.5" />
-              </a>
-              <a href="#">
-                <FaTwitter size={28} className="m-1.5" />
-              </a>
-              <a href="#">
-                <FaInstagram size={28} className="m-1.5" />
-              </a>
-              <a href="#">
-                <FaLinkedin size={28} className="m-1.5" />
+                <FaLinkedin size={22} className="m-1.5" />
               </a>
             </div>
           </div>
