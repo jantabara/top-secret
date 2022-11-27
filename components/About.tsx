@@ -9,6 +9,7 @@ const About = () => {
       data-aos="fade-up"
       data-aos-duration="800"
     >
+      That right there was a violation. Personally I would not have it.
       <h1 className="font-bold text-2xl p-4">Portfolio</h1>
       <div className="grid grid-rows-none md:grid-cols-5 p-4 gap-4">
         <div className="w-full h-full col-span-2 md:col-span-3 row-span-2">
