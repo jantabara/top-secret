@@ -3,13 +3,12 @@
 }
 
 .about__container {
-  display: flex;
-  justify-content: space-between;
+  display: block;
   text-align: left;
 }
 
 .about__segment {
-  width: 31%;
+  width: 100%;
 }
 
 .about__content {
@@ -38,4 +37,15 @@
 
 .about__text {
   line-height: 1.75;
+}
+
+@media only screen and (min-width: 1024px) {
+  .about__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about__segment {
+    width: 31%;
+  }
 }

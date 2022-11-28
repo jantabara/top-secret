@@ -5,9 +5,14 @@ const About = () => {
   return (
     <div className="container mx-auto text-center" id="about">
       <div className="about mx-4 xl:mx-0">
-        <h1 className="text-2xl font-bold text-center p-4 mb-16">
-          Why work with us
-        </h1>
+        <div className="relative max-w-fit md:mx-4 lg:mx-0 m-auto">
+          <h1 className="text-4xl md:text-5xl font-extralight text-left mt-8 mb-20">
+            Why work with us
+          </h1>
+          <p className="absolute right-0 top-12 font-thin">
+            Let's make a great deal!
+          </p>
+        </div>
         <div className="about__container">
           <div
             className="about__segment"
@@ -26,7 +31,7 @@ const About = () => {
             </div>
           </div>
           <div
-            className="about__segment mt-32"
+            className="about__segment mt-4 lg:mt-32"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="false"
@@ -42,7 +47,7 @@ const About = () => {
             </div>
           </div>
           <div
-            className="about__segment mt-64"
+            className="about__segment mt-4 lg:mt-64"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-once="false"
