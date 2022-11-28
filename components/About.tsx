@@ -1,65 +1,62 @@
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 
 const About = () => {
   return (
-    <div
-      className="max-w-[1240px] mx-auto text-center pt-20"
-      id="work"
-      data-aos="fade-up"
-      data-aos-duration="800"
-    >
-      That right there was a violation. Personally I would not have it.
-      <h1 className="font-bold text-2xl p-4">Portfolio</h1>
-      <div className="grid grid-rows-none md:grid-cols-5 p-4 gap-4">
-        <div className="w-full h-full col-span-2 md:col-span-3 row-span-2">
-          <Image
-            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
-            alt="/"
-            layout="responsive"
-            width="677"
-            height="451"
-          />
-        </div>
-        <div className="w-full h-full">
-          <Image
-            src="https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80"
-            alt="/"
-            width="215"
-            height="217"
-            layout="responsive"
-            objectFit="cover"
-          />
-        </div>
-        <div className="w-full h-full">
-          <Image
-            src="https://images.unsplash.com/photo-1472791108553-c9405341e398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2437&q=80"
-            alt="/"
-            width="215"
-            height="217"
-            layout="responsive"
-            objectFit="cover"
-          />
-        </div>
-        <div className="w-full h-full">
-          <Image
-            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
-            alt="/"
-            width="215"
-            height="217"
-            layout="responsive"
-            objectFit="cover"
-          />
-        </div>
-        <div className="w-full h-full">
-          <Image
-            src="https://images.unsplash.com/photo-1469362102473-8622cfb973cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2419&q=80"
-            alt="/"
-            width="215"
-            height="217"
-            layout="responsive"
-            objectFit="cover"
-          />
+    <div className="container mx-auto text-center" id="about">
+      <div className="about mx-4 xl:mx-0">
+        <h1 className="text-2xl font-bold text-center p-4 mb-16">
+          Why work with us
+        </h1>
+        <div className="about__container">
+          <div
+            className="about__segment"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="false"
+          >
+            <div className="about__content">
+              <h3 className="about__heading">No new kid on the block</h3>
+              <div className="about__text">
+                All years combined, we can offer as much as twelve years of
+                experience in a great scale of various businesses. We have took
+                part in multiple start-ups, digital agencies, but also delivered
+                solutions for medium-sized to corporate scale organizations.
+              </div>
+            </div>
+          </div>
+          <div
+            className="about__segment mt-32"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="false"
+          >
+            <div className="about__content">
+              <h3 className="about__heading">Using the cool tech</h3>
+              <div className="about__text">
+                In Eight Digit Club we speak mainly JavaScript. That's why you
+                can find us working on a super-wide spectrum of projects.
+                Ranging from native mobile apps to full-blown web applications,
+                there is nothing our team cannot handle!
+              </div>
+            </div>
+          </div>
+          <div
+            className="about__segment mt-64"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="false"
+          >
+            <div className="about__content">
+              <h3 className="about__heading">In it for fun</h3>
+              <div className="about__text">
+                We believe that business should be fun. That is why want to take
+                some of your responsibility with software off of your back. So
+                while you have fun with your business, we take care of the
+                coding and project management.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

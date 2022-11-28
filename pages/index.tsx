@@ -16,12 +16,9 @@ export default function Home() {
         heading="Not just another agency."
         message="We make app development feel easy."
       />
-      <div className="pt-16" style={{ backgroundColor: "#f4f4f4" }}>
+      <div className="pt-16 pb-32" style={{ backgroundColor: "#f4f4f4" }}>
         <About />
       </div>
-      {/* <Portfolio />
-      <Slider slides={SliderData} />
-      <Instagram /> */}
       <Contact />
       <Map />
     </div>

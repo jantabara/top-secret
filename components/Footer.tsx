@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container" data-aos="fade-up" data-aos-duration="800">
+      <div className="container">
         <div className="mb-4">
           <div className="flex justify-center w-24 md:w-32 mb-6 md:mb-0 xl:ml-0 ml-8">
             <img src="/edc_white.svg" />

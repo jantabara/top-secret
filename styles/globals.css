@@ -2,9 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "about.css";
+
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 200px;
+  margin: -200px 0 0;
 }
 
 html::-webkit-scrollbar-track {

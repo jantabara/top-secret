@@ -55,7 +55,7 @@ const Navbar = () => {
             data-aos-duration="2000"
             className="navbar__link py-4 px-2"
           >
-            <Link href="/#work">ABOUT</Link>
+            <Link href="/#about">ABOUT</Link>
           </li>
           <li
             data-aos="fade-out"
