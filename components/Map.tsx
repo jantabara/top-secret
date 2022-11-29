@@ -8,13 +8,17 @@ interface IMarker {
   readonly text: string;
 }
 
-const Marker: React.FC<IMarker> = () => <p>šrrrrrrrr</p>;
+const Marker: React.FC<IMarker> = () => (
+  <div className="map-pinpoint" >
+    <img src="/e_black.svg" alt="marker" className="map-pinpoint-content"/>
+  </div>
+);
 
 const Map = () => {
   const defaultProps = {
     center: {
-      lat: 49.1989227,
-      lng: 16.6181145,
+      lat: 49.20179,
+      lng: 16.60712,
     },
     zoom: 12,
   };
@@ -29,7 +33,7 @@ const Map = () => {
           styles: mapStyles,
         }}
       >
-        <Marker lat={49.1989227} lng={16.6181145} text="My Marker" />
+        <Marker lat={49.20179} lng={16.60712} text="My Marker" />
       </GoogleMapReact>
     </div>
   );
