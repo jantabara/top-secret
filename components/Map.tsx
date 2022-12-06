@@ -9,8 +9,8 @@ interface IMarker {
 }
 
 const Marker: React.FC<IMarker> = () => (
-  <div className="map-pinpoint" >
-    <img src="/e_black.svg" alt="marker" className="map-pinpoint-content"/>
+  <div className="map-pinpoint">
+    <img src="/e_black.svg" alt="marker" className="map-pinpoint-content" />
   </div>
 );
 
@@ -26,7 +26,7 @@ const Map = () => {
   return (
     <div style={{ height: "450px", width: "100%" }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyAd_syyNQPveNau1xpD9WTzBMOX1l3c3V0" }}
+        bootstrapURLKeys={{ key: process.env.GOOGLE_MAPS_API_KEY }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
         options={{

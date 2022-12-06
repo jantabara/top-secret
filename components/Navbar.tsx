@@ -96,19 +96,19 @@ const Navbar = () => {
               onClick={handleNav}
               className="py-2 text-3xl hover:text-gray-500"
             >
-              <Link href="/">Home</Link>
+              <Link href="/#">Home</Link>
             </li>
             <li
               onClick={handleNav}
               className="py-2 text-3xl hover:text-gray-500"
             >
-              <Link href="/work">About Us</Link>
+              <Link href="/#work">About Us</Link>
             </li>
             <li
               onClick={handleNav}
               className="py-2 text-3xl hover:text-gray-500"
             >
-              <Link href="/contact">Contact</Link>
+              <Link href="/#contact">Contact</Link>
             </li>
           </ul>
         </div>
