@@ -1,8 +1,9 @@
 import Head from "next/head";
-import About from "../components/About";
+import WhyWorkWithUs from "../components/WhyWorkWithUs";
 import Contact from "../components/Contact";
 import Hero from "../components/Hero";
 import Map from "../components/Map";
+import WhatDoWeDo from "../components/WhatDoWeDo";
 
 export default function Home() {
   return (
@@ -16,9 +17,8 @@ export default function Home() {
         heading="Not just another agency."
         message="We make app development feel easy."
       />
-      <div className="pt-16 pb-32" style={{ backgroundColor: "#f4f4f4" }}>
-        <About />
-      </div>
+      <WhatDoWeDo />
+      <WhyWorkWithUs />
       <Contact />
       <Map />
     </div>
