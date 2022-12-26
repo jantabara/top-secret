@@ -54,6 +54,13 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+.hero__video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: initial;
+}
+
 .hero__overlay {
   height: 100vh;
 }

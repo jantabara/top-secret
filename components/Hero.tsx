@@ -23,7 +23,7 @@ const Hero = ({ heading, message }) => {
         {/* <button className="px-8 py-2 border">Book</button> */}
       </div>
       <div className="absolute overflow-hidden hero__custom-video top-0">
-        <video autoPlay muted loop>
+        <video autoPlay muted loop className="hero__video">
           <source src="background.mp4" type="video/mp4" />
         </video>
       </div>
