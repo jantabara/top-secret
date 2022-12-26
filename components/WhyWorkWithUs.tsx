@@ -59,10 +59,12 @@ const WhyWorkWithUs = () => {
               <div className="about__content">
                 <h3 className="about__heading">Naturally iterative</h3>
                 <div className="about__text">
-                  We believe that business should be fun. That is why want to
-                  take some of your responsibility with software off of your
-                  back. So while you have fun with your business, we take care
-                  of the coding and project management.
+                  We believe in agile software development. Instead of
+                  set-in-stone development model, which never reflects sudden
+                  changes of priorities, we prefer short iterations. During
+                  these, we validate the progress with your goals. Thanks to
+                  that, we are able to tailor the final product to your needs.
+                  As a client, you are always a part of the development process!
                 </div>
               </div>
             </div>

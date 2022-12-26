@@ -22,13 +22,13 @@ const WhatDoWeDo = () => {
               data-aos-once="false"
             >
               <div className="about__content">
-                <h3 className="about__heading">No new kid on the block</h3>
+                <h3 className="about__heading">Application Development</h3>
                 <div className="about__text">
-                  All years combined, we can offer as much as twelve years of
-                  experience in a great scale of various businesses. We have
-                  took part in multiple start-ups, digital agencies, but also
-                  delivered solutions for medium-sized to corporate scale
-                  organizations.
+                  This is why we are here. Application development is what we
+                  love and what we do best. Ranging from mobile apps, PWAs to
+                  full-scale web applications, we can deliver any of these with
+                  an effortless swing of our keyboards. We code, we deploy and
+                  we maintain whatever your business logic might be.
                 </div>
               </div>
             </div>
@@ -39,12 +39,13 @@ const WhatDoWeDo = () => {
               data-aos-once="false"
             >
               <div className="about__content">
-                <h3 className="about__heading">Using the cool tech</h3>
+                <h3 className="about__heading">Consulting</h3>
                 <div className="about__text">
-                  In Eight Digit Club we speak mainly JavaScript. That's why you
-                  can find us working on a super-wide spectrum of projects.
-                  Ranging from native mobile apps to full-blown web
-                  applications, there is nothing our team cannot handle!
+                  You already have an application, but it's oftentimes
+                  misbehaving? No problem at all! We can help you identify
+                  performance bottlenecks, exterminate bugs or refactor your
+                  solution to using cutting-edge technologies. We can also
+                  provide advice and consulting.
                 </div>
               </div>
             </div>
@@ -55,12 +56,14 @@ const WhatDoWeDo = () => {
               data-aos-once="false"
             >
               <div className="about__content">
-                <h3 className="about__heading">Naturally iterative</h3>
+                <h3 className="about__heading">Launchpad</h3>
                 <div className="about__text">
-                  We believe that business should be fun. That is why want to
-                  take some of your responsibility with software off of your
-                  back. So while you have fun with your business, we take care
-                  of the coding and project management.
+                  You have got an amazing idea, but you do not want to take the
+                  struggle of watching thousands upon thousands of hours of the
+                  best Indian coding tutorials? And you do not have the starting
+                  money capital either? Worry no longer, because we can still
+                  make a wonderful deal! Tell us your idea and we can start
+                  co-operating as soon as today!
                 </div>
               </div>
             </div>
