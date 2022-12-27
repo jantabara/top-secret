@@ -3,8 +3,8 @@ import React from "react";
 
 const WhatDoWeDo = () => {
   return (
-    <div className="background--has-stripes pt-16 pb-32">
-      <div className="container mx-auto text-center" id="about">
+    <div className="background--has-stripes pt-16 pb-24" id="about">
+      <div className="container mx-auto text-center">
         <div className="about mx-4 xl:mx-0">
           <div className="relative md:mx-4 lg:mx-0 max-w-fit">
             <h1 className="text-4xl md:text-5xl font-extralight text-left mt-8 mb-20">

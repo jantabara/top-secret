@@ -3,8 +3,8 @@ import React from "react";
 
 const WhyWorkWithUs = () => {
   return (
-    <div className="pt-8 pb-24" style={{ backgroundColor: "#f4f4f4" }}>
-      <div className="container mx-auto text-center" id="about">
+    <div className="pt-16 pb-24" style={{ backgroundColor: "#f4f4f4" }} id="why-choose-us">
+      <div className="container mx-auto text-center">
         <div className="about mx-4 xl:mx-0">
           <div className="relative w-100 md:mx-4 lg:mx-0">
             <div className="max-w-fit ml-auto">

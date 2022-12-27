@@ -34,9 +34,9 @@ const Navbar = () => {
         style={{ width: 130 }}
       >
         {textColor === colors.white ? (
-          <img src="/edc_white.svg" />
+          <img src="/edc_white.svg" alt='logo-white' width="114px" height="31px"/>
         ) : (
-          <img src="/edc_black.svg" />
+          <img src="/edc_black.svg" alt='logo-black' width="114px" height="31px" />
         )}
       </div>
     );
@@ -63,7 +63,7 @@ const Navbar = () => {
             data-aos-delay="100"
             className="navbar__link py-4 px-2"
           >
-            <Link href="/#contact">BLOG</Link>
+            <Link href="/#why-choose-us">WHY CHOOSE US</Link>
           </li>
           <li
             data-aos="fade-out"
@@ -96,19 +96,19 @@ const Navbar = () => {
               onClick={handleNav}
               className="py-2 text-3xl hover:text-gray-500"
             >
-              <Link href="/#">Home</Link>
+              <Link href="/#about">ABOUT</Link>
             </li>
             <li
               onClick={handleNav}
               className="py-2 text-3xl hover:text-gray-500"
             >
-              <Link href="/#work">About Us</Link>
+              <Link href="/#why-choose-us">WHY CHOOSE US</Link>
             </li>
             <li
               onClick={handleNav}
               className="py-2 text-3xl hover:text-gray-500"
             >
-              <Link href="/#contact">Contact</Link>
+              <Link href="/#contact">CONTACT</Link>
             </li>
           </ul>
         </div>
