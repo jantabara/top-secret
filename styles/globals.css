@@ -44,6 +44,10 @@ html::-webkit-scrollbar {
   background-size: 29.7px 29.7px;
 }
 
+.hero {
+  background-color: black;
+}
+
 .hero__custom-img {
   background-image: url("../public/background.jpg");
   height: 100vh;
