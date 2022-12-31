@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="mb-4">
           <div className="flex justify-center w-24 md:w-32 mb-6 md:mb-0 xl:ml-0 ml-8">
-            <img src="/edc_white.svg" />
+            <img src="/edc_white.svg" alt="logo-white" width="128px" height="35px" />
           </div>
           <div className="footer__copy mx-8 xl:mx-0">
             <hr className="footer__delimiter md:my-12" />
@@ -20,7 +20,7 @@ const Footer = () => {
       >
         <div className="row">
           <div className="footer-col pl-8 md:pl-0">
-            <h4>Contact & Address</h4>
+            <h3>Contact & Address</h3>
             <ul className="footer-row mt-4">
               <li>Eight Digit Club s.r.o.</li>
               <li>Lidická 700/19, Veveří, 602 00 Brno</li>
@@ -33,9 +33,9 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-col pl-8 md:pl-0 md:ml-16">
-            <h4>Follow us</h4>
+            <h3>Follow us</h3>
             <div className="social-links footer-row mt-4">
-              <a href="#">
+              <a href="https://www.linkedin.com/company/eight-digit-club/about/">
                 <FaLinkedin size={22} className="m-1.5" />
               </a>
             </div>

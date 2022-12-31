@@ -1,16 +1,22 @@
+@import "about.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import "about.css";
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;
+}
+
+body {
+  line-height: 1.5;
 }
 
 :target:before {
@@ -83,14 +89,6 @@ html::-webkit-scrollbar {
   }
 }
 
-/* @media only screen and (min-width: 1440px) {
-  .hero,
-  .hero__overlay,
-  .hero__custom-video {
-    height: 680px;
-  }
-} */
-
 .mobile-nav {
   background-color: rgba(0, 0, 0, 0.9);
   padding-top: 3rem;
@@ -109,10 +107,6 @@ html::-webkit-scrollbar {
   color: orange;
 }
 
-.footer-col h4::before {
-  background-color: orange;
-}
-
 .button__primary {
   background-color: orange;
   color: white;
@@ -127,14 +121,6 @@ html::-webkit-scrollbar {
   background-color: #ff9100;
 }
 
-body {
-  line-height: 1.5;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .container {
   max-width: 1170px;
   margin: auto;
@@ -146,14 +132,21 @@ body {
 ul {
   list-style: none;
 }
+
+.footer-row {
+  display: inline-block;
+  line-height: 24px;
+}
+
 .footer {
   background-color: #2d2d2d;
   padding: 70px 0;
 }
 .footer-col {
   width: 25%;
+  color: #bbbbbb;
 }
-.footer-col h4 {
+.footer-col h3 {
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
@@ -162,16 +155,7 @@ ul {
   position: relative;
 }
 
-.footer-col {
-  color: #bbbbbb;
-}
-
-.footer-row {
-  display: inline-block;
-  line-height: 24px;
-}
-
-.footer-col h4::before {
+.footer-col h3::before {
   content: "";
   position: absolute;
   left: 0;
@@ -179,6 +163,7 @@ ul {
   height: 4px;
   box-sizing: border-box;
   width: 50px;
+  background-color: orange;
 }
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
@@ -189,7 +174,6 @@ ul {
   font-weight: 300;
   color: #bbbbbb;
   display: block;
-  /* transition: all 0.3s ease; */
 }
 
 .footer-col .social-links a {
