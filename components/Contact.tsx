@@ -28,7 +28,6 @@ const Contact = () => {
       const responseBody: ContactFormResponse = await response.json();
 
       if (responseBody.success) {
-        console.log("clearing form");
         setValues({ email: "", message: "", name: "" });
       } else {
         setError("Formulář se nepodařilo odeslat.");
@@ -47,14 +46,14 @@ const Contact = () => {
   return (
     <div className="max-w-[1240px] pt-20 mb-16 mx-auto p-4" id="contact">
       <h1 className="text-2xl font-bold text-center p-4">
-        Let's combine forces
+        Pojďme spojit síly
       </h1>
       <form className="max-w-[600px] m-auto" onSubmit={handleSubmit}>
         <div className="grid grid-cols-2 gap-2">
           <input
             className="border shadow-lg p-3 my-3"
             type="text"
-            placeholder="Name"
+            placeholder="Jméno"
             name="name"
             value={values.name}
             onChange={onChange}
@@ -62,7 +61,7 @@ const Contact = () => {
           <input
             className="border shadow-lg p-3 my-3"
             type="email"
-            placeholder="Email"
+            placeholder="E-mail"
             name="email"
             value={values.email}
             onChange={onChange}
@@ -72,13 +71,13 @@ const Contact = () => {
           className="border shadow-lg p-3 w-full"
           cols={30}
           rows={7}
-          placeholder="Message"
+          placeholder="Zpráva"
           name="message"
           value={values.message}
           onChange={onChange}
         ></textarea>
         <button className="button__primary border shadow-lg p-3 w-50 mt-2">
-          Submit
+          Odeslat
         </button>
       </form>
     </div>

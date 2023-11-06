@@ -8,10 +8,10 @@ const WhyWorkWithUs = () => {
           <div className="relative w-100 md:mx-4 lg:mx-0">
             <div className="max-w-fit ml-auto">
               <h1 className="text-4xl md:text-5xl font-extralight text-left mt-8 mb-16">
-                Why work with us
+                Proč spolupracovat
               </h1>
               <p className="absolute right-0 top-12 font-thin">
-                Let's make a great deal!
+                Pojďme udělat skvělý deal!
               </p>
             </div>
           </div>
@@ -23,13 +23,11 @@ const WhyWorkWithUs = () => {
               data-aos-once="false"
             >
               <div className="about__content">
-                <h3 className="about__heading">No new kid on the block</h3>
+                <h3 className="about__heading">Nejsme žádní zelenáči</h3>
                 <div className="about__text">
-                  All years combined, we can offer as much as twelve years of
-                  experience in a great scale of various businesses. We have
-                  took part in multiple start-ups, digital agencies, but also
-                  delivered solutions for medium-sized to corporate scale
-                  organizations.
+                  Všechny roky sečteny, nabízíme až dvanáct let zkušeností
+                  v širokém spektru rozličných IT byznysů. Start-upy, digitální agentury, velké korporáty.
+                  S těmi všemi jsme již v minulosti spolupracovali.
                 </div>
               </div>
             </div>
@@ -40,12 +38,13 @@ const WhyWorkWithUs = () => {
               data-aos-once="false"
             >
               <div className="about__content">
-                <h3 className="about__heading">Using the cool tech</h3>
+                <h3 className="about__heading">Cool technologie</h3>
                 <div className="about__text">
-                  In Eight Digit Club we speak mainly JavaScript. That's why you
-                  can find us working on a super-wide spectrum of projects.
-                  Ranging from native mobile apps to full-blown web
-                  applications, there is nothing our team cannot handle!
+                  V <b>Eight Digit Club</b>-u mluvíme hlavně JavaScriptem. To je ten důvod, proč dokážeme obsáhnout tak široké množství projektů.
+                  Od mobilních aplikací až po full-blown webové systémy.
+                  <br/>
+                  <br/>
+                  <i>#javascript #react</i>
                 </div>
               </div>
             </div>
@@ -56,14 +55,12 @@ const WhyWorkWithUs = () => {
               data-aos-once="false"
             >
               <div className="about__content">
-                <h3 className="about__heading">Naturally iterative</h3>
+                <h3 className="about__heading">Od přírody iterativní</h3>
                 <div className="about__text">
-                  We believe in agile software development. Instead of
-                  set-in-stone development model, which never reflects sudden
-                  changes of priorities, we prefer short iterations. During
-                  these, we validate the progress with your goals. Thanks to
-                  that, we are able to tailor the final product to your needs.
-                  As a client, you are always a part of the development process!
+                  Věříme v agile software development. Namísto do kamene vytesaných 
+                  vývojových procesů, které nikdy nereflektují náhlé změny priorit,
+                  preferujeme krátké iterace. Během nich neustále validujeme pokrok vzhledek k Vašim cílům.
+                  Díky tomu jsme schopni ušít koncový produkt přímo na míru Vašim potřebám.
                 </div>
               </div>
             </div>

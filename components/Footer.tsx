@@ -20,11 +20,11 @@ const Footer = () => {
       >
         <div className="row">
           <div className="footer-col pl-8 md:pl-0">
-            <h3>Contact & Address</h3>
+            <h3>Kontakt & Adresa</h3>
             <ul className="footer-row mt-4">
               <li>Eight Digit Club s.r.o.</li>
               <li>Lidická 700/19, Veveří, 602 00 Brno</li>
-              <li>Registration ID: 17423724</li>
+              <li>IČO: 17423724</li>
               <li>
                 <a className="footer-email" href="mailto:info@8digit.club">
                   info@8digit.club
@@ -33,7 +33,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-col pl-8 md:pl-0 md:ml-16">
-            <h3>Follow us</h3>
+            <h3>Sledujte nás</h3>
             <div className="social-links footer-row mt-4">
               <a href="https://www.linkedin.com/company/eight-digit-club/about/">
                 <FaLinkedin size={22} className="m-1.5" />

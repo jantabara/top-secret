@@ -10,12 +10,12 @@ export default function Home() {
     <div>
       <Head>
         <title>Eight Digit Club</title>
-        <meta name="description" content="Eight Digit Club official website" />
+        <meta name="description" content="Eight Digit Club" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero
-        heading="Not just another agency."
-        message="We make app development feel easy."
+        heading="EIGHT DIGIT CLUB."
+        message="Propojujeme nápady se skutečností."
       />
       <WhatDoWeDo />
       <WhyWorkWithUs />

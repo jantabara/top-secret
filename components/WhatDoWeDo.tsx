@@ -7,10 +7,10 @@ const WhatDoWeDo = () => {
         <div className="about mx-4 xl:mx-0">
           <div className="relative md:mx-4 lg:mx-0 max-w-fit">
             <h1 className="text-4xl md:text-5xl font-extralight text-left mt-8 mb-20">
-              What do we do
+              Naše služby
             </h1>
             <p className="absolute right-0 top-12 font-thin">
-              Discover our specialization.
+              Na co se zaměřujeme?
             </p>
           </div>
           <div className="about__container">
@@ -21,13 +21,10 @@ const WhatDoWeDo = () => {
               data-aos-once="false"
             >
               <div className="about__content">
-                <h3 className="about__heading">Application Development</h3>
+                <h3 className="about__heading">Vývoj aplikací</h3>
                 <div className="about__text">
-                  This is why we are here. Application development is what we
-                  love and what we do best. Ranging from mobile apps, PWAs to
-                  full-scale web applications, we can deliver any of these with
-                  an effortless swing of our keyboards. We code, we deploy and
-                  we maintain whatever your business logic might be.
+                  Toto je důvod, proč jsme tady. Vývoj aplikací je to, co milujeme a co nám jde ze všeho nejlépe. 
+                  Od mobilních aplikací až po složité webové systémy, není nic co bychom nedokázali doručit. Programujeme a udržujeme v chodu jakoukoliv ideu, či business logiku.
                 </div>
               </div>
             </div>
@@ -38,13 +35,12 @@ const WhatDoWeDo = () => {
               data-aos-once="false"
             >
               <div className="about__content">
-                <h3 className="about__heading">Consulting</h3>
+                <h3 className="about__heading">Konzultace</h3>
                 <div className="about__text">
-                  You already have an application, but it's oftentimes
-                  misbehaving? No problem at all! We can help you identify
-                  performance bottlenecks, exterminate bugs or refactor your
-                  solution to using cutting-edge technologies. We can also
-                  provide advice and consulting.
+                  Již máte aplikaci, ale častokrát se Vám stává, že nefunguje?
+                  Žádný problém! Můžeme Vám pomoci identifikovat slabá místa ve výkonu aplikace, 
+                  odladit chyby nebo refaktorovat Váš projekt, aby používal <b>nejmodernější technologie</b>.
+                  Také dokážeme poskytnout rady a konzultace na míru.
                 </div>
               </div>
             </div>
@@ -57,12 +53,10 @@ const WhatDoWeDo = () => {
               <div className="about__content">
                 <h3 className="about__heading">Launchpad</h3>
                 <div className="about__text">
-                  You have got an amazing idea, but you do not want to take the
-                  struggle of watching thousands upon thousands of hours of the
-                  best Indian coding tutorials? And you do not have the starting
-                  money capital either? Worry no longer, because we can still
-                  make a wonderful deal! Tell us your idea and we can start
-                  co-operating as soon as today!
+                  Máte úžasný nápad, ale nechcete strávit tisíce hodin Vašeho mládí
+                  sledováním těch nejotravnějších Indických tutoriálů na YouTube?
+                  Nebo nemáte tučný počáteční rozpočet do startu? Již se nemusíte dále obávat, stále si můžeme plácnout!
+                  Svěřte nám Váš nápad a spolupráce může<b> začít již dnes!</b>
                 </div>
               </div>
             </div>

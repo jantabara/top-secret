@@ -55,7 +55,7 @@ const Navbar = () => {
             data-aos-duration="2000"
             className="navbar__link py-4 px-2"
           >
-            <Link href="/#about">ABOUT</Link>
+            <Link href="/#about">O NÁS</Link>
           </li>
           <li
             data-aos="fade-out"
@@ -63,7 +63,7 @@ const Navbar = () => {
             data-aos-delay="100"
             className="navbar__link py-4 px-2"
           >
-            <Link href="/#why-choose-us">WHY CHOOSE US</Link>
+            <Link href="/#why-choose-us">SPOLUPRÁCE</Link>
           </li>
           <li
             data-aos="fade-out"
@@ -71,7 +71,7 @@ const Navbar = () => {
             data-aos-delay="200"
             className="navbar__link py-4 px-2"
           >
-            <Link href="/#contact">CONTACT</Link>
+            <Link href="/#contact">KONTAKT</Link>
           </li>
         </ul>
 
