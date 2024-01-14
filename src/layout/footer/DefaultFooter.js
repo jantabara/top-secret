@@ -16,10 +16,11 @@ const DefaultFooter = ({ dark }) => {
                 <Link legacyBehavior href="/">
                   <a>
                     <img
+                      style={{ width: 200 }}
                       src={
                         dark
                           ? "assets/images/logos/footer-logo-white.png"
-                          : "assets/images/logos/footer-logo.png"
+                          : "assets/images/logos/edc_black.svg"
                       }
                       alt="Logo"
                     />
@@ -58,9 +59,9 @@ const DefaultFooter = ({ dark }) => {
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
                   className="theme-btn style-three"
-                  href="mailto:support@gmail.com"
+                  href="mailto:info@8digit.club"
                 >
-                  support@gmail.com <i className="far fa-arrow-right" />
+                  info@8digit.club <i className="far fa-arrow-right" />
                 </a>
                 <a
                   className="theme-btn style-three phone-number"

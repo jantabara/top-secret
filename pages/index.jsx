@@ -469,7 +469,7 @@ const Index = () => {
       </section>
       {/* Project Timeline Area end */}
       {/* Team Area start */}
-      <section className="team-area pt-70 rpt-40">
+      {/* <section className="team-area pt-70 rpt-40">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -674,7 +674,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Team Area end */}
       {/* Headline area start */}
       {/* <div className="headline-area pt-65 rpt-55 rel z-1">
@@ -809,8 +809,8 @@ const Index = () => {
       </section> */}
       {/* Pricing style three end */}
       {/* Why Choose Us Area start */}
-      <section className="why-choose-area pt-90 rpt-60 rel z-1">
-        <div className="container-fluid">
+      <section className="why-choose-area py-90 rpt-60 rel z-1">
+        <div className="container">
           <div className="row">
             <div className="col-xl-7">
               <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s">
@@ -823,8 +823,8 @@ const Index = () => {
             <div className="col-xl-5">
               <div className="why-choose-two-wrap">
                 <div className="section-title mb-55 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">Why Choose Us</span>
-                  <h2>We Provide Services In One Places</h2>
+                  <span className="sub-title mb-15">Proč se svěřit nám</span>
+                  <h2>Všechny služby na jednom místě</h2>
                 </div>
                 <div className="why-choose-item-two wow fadeInUp delay-0-3s">
                   <div className="icon">
@@ -887,7 +887,7 @@ const Index = () => {
         <div className="container-fluid">
           <div className="headline-text marquee">
             <span>
-              <span>clients</span> Say’s
+              <span>Říkají</span> o nás
             </span>
           </div>
         </div>
@@ -955,7 +955,7 @@ const Index = () => {
                     <div className="testimonial-footer">
                       <div className="testimonial-author">
                         <div className="author-info">
-                          <h4>Richard S. Robertson</h4>
+                          <h4>Jan Bartoň</h4>
                           <span className="designation">CEO &amp; Founder</span>
                         </div>
                       </div>
