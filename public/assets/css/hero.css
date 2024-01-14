@@ -1,0 +1,14 @@
+#hero-text .hero-content-first,
+#hero-text .hero-content-second,
+#hero-text .hero-content-third
+ {
+  /* remove and see why this is here! */
+  /* inline-size: 1em; */
+  opacity: 0;
+  transition: opacity 225ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.fade-hero {
+  opacity: 1 !important;
+  transition: opacity 300ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
