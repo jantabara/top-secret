@@ -11605,6 +11605,12 @@ blockquote .blockquote-footer:before {
   transition: .3s;
 }
 
+.project-timeline .meta {
+  font-size: 16px;
+  color: var(--ygency-body-color);
+  font-weight: 300;
+}
+
 @media only screen and (max-width: 767px) {
   .project-timeline {
     -ms-flex-wrap: wrap;
@@ -11613,7 +11619,7 @@ blockquote .blockquote-footer:before {
 }
 
 .project-timeline .content {
-  max-width: 350px;
+  width: 350px;
   margin-right: 20px;
 }
 
@@ -11659,20 +11665,13 @@ blockquote .blockquote-footer:before {
   border-color: var(--ygency-primary-color);
 }
 
-.project-timeline:hover .content .serial-number,
-.project-timeline:hover .content h4 a {
+.project-timeline:hover .content .serial-number {
   color: var(--ygency-primary-color);
-}
-
-.project-timeline:hover .content h4 a {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 5px;
 }
 
 .project-timeline:hover .right-btn .details-btn {
   background: var(--ygency-primary-color);
-  color: var(--ygency-dark-color);
+  color: white;
 }
 
 .project-timeline-two-area:before,
@@ -14917,3 +14916,7 @@ blockquote .blockquote-footer:before {
 .fa-angle-double-up {
   color: white;
 }
+
+/* .project-timeline-area {
+  background-color: white;
+} */

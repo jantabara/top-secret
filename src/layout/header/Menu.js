@@ -174,7 +174,7 @@ const DaskTopMenu = () => {
         </div>
       </li>
       <li className="dropdown">
-        <a href="#">Services</a>
+        <a href="#">Služby</a>
         <ul>
           <li>
             <Link legacyBehavior href="services">
@@ -197,7 +197,7 @@ const DaskTopMenu = () => {
         </div>
       </li>
       <li className="dropdown">
-        <a href="#">Projects</a>
+        <a href="#">Projekty</a>
         <ul>
           <li>
             <Link legacyBehavior href="projects">

@@ -268,7 +268,7 @@ const Index = () => {
       {/* Skills Area End */}
 
       {/* Service Style Three start */}
-      <section className="service-three-area pt-70 rpt-40 rel z-1">
+      {/* <section className="service-three-area pt-70 rpt-40 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-7">
@@ -365,10 +365,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Service Style Three end */}
       {/* Headline area start */}
-      <div className="headline-area pt-65 rpt-60 rel z-1">
+      {/* <div className="headline-area pt-65 rpt-60 rel z-1">
         <div className="container-fluid">
           <div className="headline-text marquee">
             <span>
@@ -376,24 +376,24 @@ const Index = () => {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Headline Area end */}
       {/* Project Timeline Area start */}
       <section className="project-timeline-area pt-90 rpt-75 rel z-1">
         <div className="container container-1290">
           <div className="row justify-content-between align-items-center pb-25">
             <div className="col-xl-6 col-lg-8">
-              <div className="section-title mb-30 wow fadeInLeft delay-0-2s">
-                <span className="sub-title mb-15">Recent Works Gallery</span>
-                <h2>Lat’s Look Our Recent Project Gallery</h2>
+              <div className="section-title mb-60 wow fadeInLeft delay-0-2s">
+                <span className="sub-title mb-15">Reference</span>
+                <h2>Naše předchozí projekty</h2>
               </div>
             </div>
             <div className="col-lg-4 text-lg-end">
-              <Link legacyBehavior href="/projects">
+              {/* <Link legacyBehavior href="/projects">
                 <a className="theme-btn mb-25 wow fadeInRight delay-0-2s">
                   View More Projects <i className="far fa-arrow-right" />
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="project-timeline wow fadeInUp delay-0-2s">
@@ -401,7 +401,7 @@ const Index = () => {
               <span className="serial-number">01</span>
               <h4>
                 <Link legacyBehavior href="/project-details">
-                  <a>Business Task Management Dashboard Design</a>
+                  <a>Taky to nehuntuju <br /> <span className="ml-2 meta d-inline-block">iOS & Android aplikace</span></a>
                 </Link>
               </h4>
             </div>
@@ -424,7 +424,7 @@ const Index = () => {
               <span className="serial-number">02</span>
               <h4>
                 <Link legacyBehavior href="/project-details">
-                  <a>PSD, Figma &amp; XD to HTML Design &amp; Development</a>
+                  <a>Mech IS <br /> <span className="ml-2 meta d-inline-block">Webová aplikace</span></a>
                 </Link>
               </h4>
             </div>
