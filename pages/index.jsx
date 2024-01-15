@@ -67,14 +67,14 @@ const Index = () => {
                 <div className="section-title mb-40">
                   <span className="sub-title mb-15">O naší společnosti</span>
                   <h2>
-                    Tvoříme špičkové aplikace
+                    Tvoříme aplikace na míru
                   </h2>
                 </div>
                 <div className="content">
                   <p>
                     Od mobilních aplikací po komplexní webové systémy - u nás není nic nemožné. 
-                    <b>Eight Digit Club</b> je mladé vývojové studio zaměřené na vývoj řešení na míru, IT outsourcing, 
-                    poradenství akonzultace stávajících aplikačních řešení.
+                    <b> Eight Digit Club</b> je mladé vývojové studio zaměřené na vývoj řešení na míru, IT outsourcing, 
+                    poradenství a konzultace stávajících aplikačních řešení.
                   </p>
                   <Link legacyBehavior href="/404">
                     <a className="read-more mt-10">
@@ -139,7 +139,7 @@ const Index = () => {
               <div className="what-we-do-content mb-55">
                 <div className="section-title mb-60 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">Co děláme</span>
-                  <h2>Najdeme nejsnažší cestu k Vašim cílům</h2>
+                  <h2>Modernizujeme svět okolo nás</h2>
                 </div>
                 <div className="what-we-do-item wow fadeInUp delay-0-3s">
                   <div className="number">
@@ -218,29 +218,21 @@ const Index = () => {
             </div>
           </div>
           <div className="skills-wrap">
+          <div className="skill-item">
+              <img src="assets/images/skills/skill5.png" alt="Skill Icon" />
+              <span className="text">React</span>
+            </div>
             <div className="skill-item">
               <img src="assets/images/skills/skill4.png" alt="Skill Icon" />
               <span className="text">javascript</span>
-            </div>
-            <div className="skill-item">
-              <img src="assets/images/skills/skill5.png" alt="Skill Icon" />
-              <span className="text">React</span>
             </div>
             <div className="skill-item">
               <img src="assets/images/skills/skill1.png" alt="Skill Icon" />
               <span className="text">Bootstrap</span>
             </div>
             <div className="skill-item">
-              <img src="assets/images/skills/skill2.png" alt="Skill Icon" />
-              <span className="text">HTML</span>
-            </div>
-            <div className="skill-item">
               <img src="assets/images/skills/skill3.png" alt="Skill Icon" />
               <span className="text">CSS</span>
-            </div>
-            <div className="skill-item">
-              <img src="assets/images/skills/skill6.png" alt="Skill Icon" />
-              <span className="text">WordPress</span>
             </div>
             <div className="skill-item">
               <img src="assets/images/skills/skill8.png" alt="Skill Icon" />
@@ -249,10 +241,6 @@ const Index = () => {
             <div className="skill-item">
               <img src="assets/images/skills/skill9.png" alt="Skill Icon" />
               <span className="text">Sass</span>
-            </div>
-            <div className="skill-item">
-              <img src="assets/images/skills/skill12.png" alt="Skill Icon" />
-              <span className="text">Elementor</span>
             </div>
             <div className="skill-item">
               <img src="assets/images/skills/skill13.png" alt="Skill Icon" />
