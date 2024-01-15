@@ -13494,7 +13494,7 @@ blockquote .blockquote-footer:before {
   flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-top: 50px;
   max-width: 575px;
 }
@@ -13530,6 +13530,7 @@ blockquote .blockquote-footer:before {
 .testimonial-author .author-info h4 {
   font-size: 22px;
   margin-bottom: 2px;
+  text-align: right;
 }
 
 .testimonial-author .author-info .designation {
@@ -13705,7 +13706,8 @@ blockquote .blockquote-footer:before {
 
 @media only screen and (min-width: 992px) {
   .testimonial-item.style-three .author-speech {
-    font-size: 30px;
+    font-size: 26px;
+    font-weight: 400;
     line-height: 1.5;
   }
 }
@@ -13729,7 +13731,7 @@ blockquote .blockquote-footer:before {
   line-height: 70px;
   border: 1px solid var(--ygency-border-color);
   position: absolute;
-  left: 40px;
+  right: 40px;
   top: -32px;
 }
 

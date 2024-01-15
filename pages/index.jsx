@@ -72,8 +72,8 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <p>
-                    Od mobilních aplikací po komplexní webové systémy - u nás není nic nemožné. 
-                    <b> Eight Digit Club</b> je mladé vývojové studio zaměřené na vývoj řešení na míru, IT outsourcing, 
+                    Od mobilních aplikací po komplexní webové systémy - u nás není nic nemožné.
+                    <b> Eight Digit Club</b> je mladé vývojové studio zaměřené na vývoj řešení na míru, IT outsourcing,
                     poradenství a konzultace stávajících aplikačních řešení.
                   </p>
                   <Link legacyBehavior href="/404">
@@ -218,7 +218,7 @@ const Index = () => {
             </div>
           </div>
           <div className="skills-wrap">
-          <div className="skill-item">
+            <div className="skill-item">
               <img src="assets/images/skills/skill5.png" alt="Skill Icon" />
               <span className="text">React</span>
             </div>
@@ -797,7 +797,7 @@ const Index = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-7">
-              <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s" style={{ marginRight: 20}}>
+              <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s" style={{ marginRight: 20 }}>
                 <img
                   src="assets/images/services/why-choose-left.jpg"
                   alt="Why Choose Left Image"
@@ -893,9 +893,13 @@ const Index = () => {
                     </div>
                     <div className="author-speech">
                       <p>
-                        On the other hand we denounce see with righteous
-                        indignation and dislike men who are so beguiled
-                        demoralized by the charms pleasure moment
+                        Jako hlavní prvek úspěšné spolupráce hodnotím srozumitelnou a jasnou komunikaci,
+                        která je pro mě jako laika stěžejní.
+                      </p>
+                      <p>
+                        Zároveň se mi velice líbí silné pro-zákaznické naladění a
+                        snaha vyjít vstříc všem mým požadavkům včetně aktivního řešení neočekávaných problémů.
+                        Spolupráci s <b>EDC</b> mohu jedině doporučit.
                       </p>
                     </div>
                     <div className="middle-quote">
@@ -907,7 +911,7 @@ const Index = () => {
                       <div className="testimonial-author">
                         <div className="author-info">
                           <h4>Ondřej Krása</h4>
-                          <span className="designation">Autor</span>
+                          <span className="designation">vývoj aplikace Taky to nehuntuju</span>
                         </div>
                       </div>
                     </div>
