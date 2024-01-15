@@ -16,10 +16,13 @@ const Header2 = ({ singleMenu, dark }) => {
                       src={
                         dark
                           ? "assets/images/logos/logo-white.png"
-                          : "assets/images/logos/logo.png"
+                          : "assets/images/logos/edc_black.svg"
                       }
                       alt="Logo"
                       title="Logo"
+                      style={{
+                        width: 100
+                      }}
                     />
                   </a>
                 </Link>
