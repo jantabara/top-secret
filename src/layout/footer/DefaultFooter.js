@@ -30,18 +30,18 @@ const DefaultFooter = ({ dark }) => {
             </div>
             <div className="col-lg-8 text-lg-end">
               <div className="social-style-four mb-20 wow fadeInLeft delay-0-2s animated">
-                <a href="#">
-                  <i className="fab fa-facebook-f" /> <span>Facebook</span>
+                <a target="_blank" href="https://www.instagram.com/8digitclub/">
+                  <i className="fab fa-instagram" /> <span>Instagram</span>
                 </a>
                 <a href="#">
-                  <i className="fab fa-twitter" /> <span>Twitter</span>
+                  <i className="fab fa-linkedin" /> <span>LinkedIn</span>
                 </a>
-                <a href="#">
+                {/* <a href="#">
                   <i className="fab fa-dribbble" /> <span>Dribbble</span>
                 </a>
                 <a href="#">
                   <i className="fab fa-behance" /> <span>Behance</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -50,11 +50,7 @@ const DefaultFooter = ({ dark }) => {
           <div className="col-lg-8">
             <div className="footer-left-content pt-80">
               <div className="lets-work mb-50 wow fadeInUp delay-0-2s animated">
-                <img
-                  src="assets/images/footer/lets-work.png"
-                  alt="Let's Work Man"
-                />
-                <span>Let’s Work Together</span>
+                <span>Pojďme si plácnout</span>
               </div>
               <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
                 <a
@@ -65,9 +61,9 @@ const DefaultFooter = ({ dark }) => {
                 </a>
                 <a
                   className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
+                  href="callto:+420737605550"
                 >
-                  +000 (123) 456 88 <i className="far fa-arrow-right" />
+                  +420 737 605 550 <i className="far fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -75,60 +71,33 @@ const DefaultFooter = ({ dark }) => {
           <div className="col-lg-4">
             <div className="footer-right-content">
               <h4 className="footer-title wow fadeInUp delay-0-2s animated">
-                Quick Links
+                Rychlé odkazy
               </h4>
               <div className="footer-widget widget_nav_menu">
                 <ul className="list-style-two wow fadeInUp delay-0-3s animated">
                   <li>
-                    <Link legacyBehavior href="about">
-                      Home
+                    <Link legacyBehavior href="/">
+                      Domů
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="services">
-                      Popular Services
+                    <Link legacyBehavior href="/404">
+                      O nás
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="team">
-                      Team Member
+                    <Link legacyBehavior href="/404">
+                      Projekty
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="blog">
-                      Latest News
+                    <Link legacyBehavior href="/404">
+                      Reference
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="contact">
-                      Contact Us?
-                    </Link>
-                  </li>
-                </ul>
-                <ul className="list-style-two wow fadeInUp delay-0-4s animated">
-                  <li>
-                    <Link legacyBehavior href="index">
-                      UI/UX Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index2">
-                      Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index3">
-                      Marketing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="contact">
-                      Need a Career
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="faqs">
-                      Faqs ?
+                    <Link legacyBehavior href="/404">
+                      Kontakt
                     </Link>
                   </li>
                 </ul>
@@ -140,7 +109,7 @@ const DefaultFooter = ({ dark }) => {
           <div className="row align-items-center">
             <div className="col-xl-8 col-lg-6">
               <div className="footer-bottom-menu pt-40 pb-35 rpb-0 wow fadeInRight delay-0-2s animated">
-                <ul>
+                {/* <ul>
                   <li>
                     <Link legacyBehavior href="/about">
                       <a>About</a>
@@ -161,7 +130,7 @@ const DefaultFooter = ({ dark }) => {
                       How IT Works
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className="col-xl-4 col-lg-6">

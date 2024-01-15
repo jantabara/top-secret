@@ -26,10 +26,6 @@
   padding: 0;
 }
 
-.testimonial-two-dots .slick-dots .swiper-pagination-bullet-active,
-.testimonial-three-dots .slick-dots .swiper-pagination-bullet-active {
-  background: #55e6a5;
-}
 .testimonial-three-dots .slick-dots .swiper-pagination-bullet {
   margin-left: 7px;
   margin-right: 7px;

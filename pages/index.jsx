@@ -34,7 +34,7 @@ const Index = () => {
               <a href="#">
                 <i className="fab fa-linkedin" /> <span>LinkedIn</span>
               </a>
-              <a href="#">
+              <a target="_blank" href="https://www.instagram.com/8digitclub/">
                 <i className="fab fa-instagram" /> <span>Instagram</span>
               </a>
             </div>
@@ -72,12 +72,11 @@ const Index = () => {
                 </div>
                 <div className="content">
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium totam aperiam
-                    eaque quae abillo inventore veritatisey et quasi architecto
-                    beatae vitae dictasunt explicabo voluptatem.
+                    Od mobilních aplikací po komplexní webové systémy - u nás není nic nemožné. 
+                    <b>Eight Digit Club</b> je mladé vývojové studio zaměřené na vývoj řešení na míru, IT outsourcing, 
+                    poradenství akonzultace stávajících aplikačních řešení.
                   </p>
-                  <Link legacyBehavior href="/about">
+                  <Link legacyBehavior href="/404">
                     <a className="read-more mt-10">
                       Číst více <i className="far fa-arrow-right" />
                     </a>
@@ -95,14 +94,14 @@ const Index = () => {
           <div className="row justify-content-between">
             <div className="col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-2s">
-                <Counter end={8} />
+                <Counter end={7} />
                 <span className="counter-title">Let zkušeností</span>
               </div>
             </div>
             <div className="col-lg-3 col-6">
               <div className="counter-item counter-text-wrap wow fadeInUp delay-0-3s">
-                <Counter end={5} />
-                <span className="counter-title">Dokončených projektů</span>
+                <Counter end={4} />
+                <span className="counter-title">Dokončené projekty</span>
               </div>
             </div>
             <div className="col-lg-3 col-6">
@@ -149,12 +148,11 @@ const Index = () => {
                   <div className="content">
                     <h5>Mobilní aplikace</h5>
                     <p>
-                      Sed ut perspiciatis unde omnis natus error voluptatem
-                      accusantium doloremque
+                      Android, iOS - na platformě nezáleží. Dokážeme pro vás vytvořit cokoliv.
                     </p>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="/404">
                       <a className="read-more style-two">
-                        <span>Read More</span>{" "}
+                        <span>Číst více</span>{" "}
                         <i className="far fa-arrow-right" />
                       </a>
                     </Link>
@@ -167,12 +165,11 @@ const Index = () => {
                   <div className="content">
                     <h5>Webové aplikace</h5>
                     <p>
-                      Quis autem veleum iure reprehe nderitecy quie voluptate
-                      velit esse quam nihile
+                      Moderní webová rozhraní postavená na nejnovějších technologiích jako například <b>React.js</b> si dáváme k snídani.
                     </p>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="/404">
                       <a className="read-more style-two">
-                        <span>Read More</span>{" "}
+                        <span>Číst více</span>{" "}
                         <i className="far fa-arrow-right" />
                       </a>
                     </Link>
@@ -185,12 +182,11 @@ const Index = () => {
                   <div className="content">
                     <h5>Konzultace</h5>
                     <p>
-                      We denounce with righteous indignation and dislike
-                      beguiled demoralized charms
+                      Potřebujete-li pouze poradit nebo vyřešit technický oříšek, žádný problém. Ozvěte se nám a my vám pomůžeme posunout váš projekt na další úroveň.
                     </p>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="/404">
                       <a className="read-more style-two">
-                        <span>Read More</span>{" "}
+                        <span>Číst více</span>{" "}
                         <i className="far fa-arrow-right" />
                       </a>
                     </Link>
@@ -293,7 +289,7 @@ const Index = () => {
                   <p>We denounce with righteous indignation dislike beguile</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="read-more style-two">
-                      <span>Read More</span>{" "}
+                      <span>Číst více</span>{" "}
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>
@@ -314,7 +310,7 @@ const Index = () => {
                   <p>At vero eos et accusamus et dignissim ducimbl ditiis</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="read-more style-two">
-                      <span>Read More</span>{" "}
+                      <span>Číst více</span>{" "}
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>
@@ -335,7 +331,7 @@ const Index = () => {
                   <p>To take trivial example which ever undertakes laborious</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="read-more style-two">
-                      <span>Read More</span>{" "}
+                      <span>Číst více</span>{" "}
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>
@@ -356,7 +352,7 @@ const Index = () => {
                   <p>Sed persiciatis unde omnisey natus error voluptatem</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="read-more style-two">
-                      <span>Read More</span>{" "}
+                      <span>Číst více</span>{" "}
                       <i className="far fa-arrow-right" />
                     </a>
                   </Link>
@@ -400,26 +396,26 @@ const Index = () => {
             <div className="content">
               <span className="serial-number">01</span>
               <h4>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/404">
                   <a>Taky to nehuntuju <br /> <span className="ml-2 meta d-inline-block">iOS & Android aplikace</span></a>
                 </Link>
               </h4>
             </div>
             <div className="image">
               <img
-                src="assets/images/projects/project-timeline1.jpg"
+                src="assets/images/projects/takytonehuntuju.png"
                 alt="Project TimeLine Image"
               />
             </div>
             <div className="right-btn">
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/404">
                 <a className="details-btn">
                   <i className="fal fa-long-arrow-right" />
                 </a>
               </Link>
             </div>
           </div>
-          <div className="project-timeline wow fadeInUp delay-0-2s">
+          {/* <div className="project-timeline wow fadeInUp delay-0-2s">
             <div className="content">
               <span className="serial-number">02</span>
               <h4>
@@ -441,8 +437,8 @@ const Index = () => {
                 </a>
               </Link>
             </div>
-          </div>
-          <div className="project-timeline wow fadeInUp delay-0-2s">
+          </div> */}
+          {/* <div className="project-timeline wow fadeInUp delay-0-2s">
             <div className="content">
               <span className="serial-number">03</span>
               <h4>
@@ -464,7 +460,7 @@ const Index = () => {
                 </a>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* Project Timeline Area end */}
@@ -813,7 +809,7 @@ const Index = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-7">
-              <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s">
+              <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s" style={{ marginRight: 20}}>
                 <img
                   src="assets/images/services/why-choose-left.jpg"
                   alt="Why Choose Left Image"
@@ -823,8 +819,7 @@ const Index = () => {
             <div className="col-xl-5">
               <div className="why-choose-two-wrap">
                 <div className="section-title mb-55 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-15">Proč se svěřit nám</span>
-                  <h2>Všechny služby na jednom místě</h2>
+                  <span className="sub-title">Proč spolupracovat s námi</span>
                 </div>
                 <div className="why-choose-item-two wow fadeInUp delay-0-3s">
                   <div className="icon">
@@ -833,13 +828,12 @@ const Index = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link legacyBehavior href="/service-details">
-                        <a>Competitive Rates</a>
+                      <Link legacyBehavior href="/404">
+                        <a>Kompetitivní sazby</a>
                       </Link>
                     </h4>
                     <p>
-                      We denounce with righteous indignation and dislike
-                      beguiled demoralized charms
+                      Zapomeňte na předraženou korporátní hodinovku. Nezaměstnáváme zbytečný management a tak neplýtváme vašimi penězi.
                     </p>
                   </div>
                 </div>
@@ -850,13 +844,12 @@ const Index = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link legacyBehavior href="/service-details">
-                        <a>No Contracts Needed</a>
+                      <Link legacyBehavior href="/404">
+                        <a>Tah na bránu</a>
                       </Link>
                     </h4>
                     <p>
-                      To take trivial example, which eundertakes laborious
-                      physical exercise except
+                      Jsme mladé studio a máme velkou chuť se prosadit. Očekávejte jen ty nejlepší výsledky.
                     </p>
                   </div>
                 </div>
@@ -866,13 +859,12 @@ const Index = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link legacyBehavior href="/service-details">
-                        <a>Powerful Terminal Lines</a>
+                      <Link legacyBehavior href="/404">
+                        <a>Přátelský přístup</a>
                       </Link>
                     </h4>
                     <p>
-                      At vero eos et accusamus eto dignissimos duc blanditiis
-                      praesentium volupta
+                      Nehrajeme si na korporát. Vždy u nás panuje přátelská atmosféra, protože svoje řemeslo milujeme.
                     </p>
                   </div>
                 </div>
@@ -894,7 +886,7 @@ const Index = () => {
       </div>
       {/* Headline Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonials-three-area pt-95 rpt-70">
+      <section className="testimonials-three-area py-95 rpt-70">
         <div className="container container-1260">
           <div className="row gap-120 align-items-center">
             <div className="col-lg-6">
@@ -909,7 +901,7 @@ const Index = () => {
                       <i className="fas fa-star" />
                       <i className="fas fa-star" />
                       <i className="fas fa-star" />
-                      <i className="fas fa-star-half-alt" />
+                      <i className="fas fa-star" />
                     </div>
                     <div className="author-speech">
                       <p>
@@ -926,13 +918,13 @@ const Index = () => {
                     <div className="testimonial-footer">
                       <div className="testimonial-author">
                         <div className="author-info">
-                          <h4>Richard S. Robertson</h4>
-                          <span className="designation">CEO &amp; Founder</span>
+                          <h4>Ondřej Krása</h4>
+                          <span className="designation">Autor</span>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="testimonial-item style-three">
+                  {/* <SwiperSlide className="testimonial-item style-three">
                     <div className="ratting style-two">
                       <i className="fas fa-star" />
                       <i className="fas fa-star" />
@@ -960,8 +952,8 @@ const Index = () => {
                         </div>
                       </div>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="testimonial-item style-three">
+                  </SwiperSlide> */}
+                  {/* <SwiperSlide className="testimonial-item style-three">
                     <div className="ratting style-two">
                       <i className="fas fa-star" />
                       <i className="fas fa-star" />
@@ -1018,7 +1010,7 @@ const Index = () => {
                         </div>
                       </div>
                     </div>
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                 </Swiper>
                 <div className="testimonial-controls style-three mt-65 rmt-40 wow fadeInUp delay-0-3s animated">
                   <button className="testimonial-three-prev slick-arrow slick-disabled">
@@ -1047,7 +1039,7 @@ const Index = () => {
 
       {/* Testimonial Area end */}
       {/* Blog Style Two start */}
-      <section className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
+      {/* <section className="blog-area-two pt-125 rpt-100 pb-70 rpb-40">
         <div className="container container-1290">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
@@ -1081,7 +1073,7 @@ const Index = () => {
                 </h4>
                 <Link legacyBehavior href="/blog-details">
                   <a className="read-more">
-                    Read More <i className="far fa-arrow-right" />
+                    Číst více <i className="far fa-arrow-right" />
                   </a>
                 </Link>
               </div>
@@ -1111,7 +1103,7 @@ const Index = () => {
                 </h4>
                 <Link legacyBehavior href="/blog-details">
                   <a className="read-more">
-                    Read More <i className="far fa-arrow-right" />
+                    Číst více <i className="far fa-arrow-right" />
                   </a>
                 </Link>
               </div>
@@ -1141,14 +1133,14 @@ const Index = () => {
                 </h4>
                 <Link legacyBehavior href="/blog-details">
                   <a className="read-more">
-                    Read More <i className="far fa-arrow-right" />
+                    Číst více <i className="far fa-arrow-right" />
                   </a>
                 </Link>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Blog Style Two end */}
       {/* footer area start */}
       <Script type="text/javascript" src="./assets/js/hero.js" />

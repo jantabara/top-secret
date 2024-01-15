@@ -20,8 +20,13 @@ export default Menu;
 const DaskTopMenu = () => {
   return (
     <ul className="navigation d-none d-lg-flex desktop-menu">
-      <li className="dropdown">
-        <a href="#">Domů</a>
+      <li>
+        <Link legacyBehavior href="/">
+          Domů
+        </Link>
+      </li>
+      {/* <li className="dropdown"> 
+        <a href="/">Domů</a>
         <ul>
           <li className="dropdown">
             <a href="#">MultiPage</a>
@@ -103,13 +108,13 @@ const DaskTopMenu = () => {
         <div className="dropdown-btn">
           <span className="" />
         </div>
-      </li>
+      </li> */}
       <li>
-        <Link legacyBehavior href="about">
+        <Link legacyBehavior href="/404">
           O nás
         </Link>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <a href="#">pages</a>
         <ul>
           <li>
@@ -172,8 +177,13 @@ const DaskTopMenu = () => {
         <div className="dropdown-btn">
           <span className="" />
         </div>
+      </li> */}
+      <li>
+        <Link legacyBehavior href="/404">
+          Služby
+        </Link>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <a href="#">Služby</a>
         <ul>
           <li>
@@ -195,8 +205,13 @@ const DaskTopMenu = () => {
         <div className="dropdown-btn">
           <span className="" />
         </div>
+      </li> */}
+            <li>
+        <Link legacyBehavior href="/404">
+          Projekty
+        </Link>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <a href="#">Projekty</a>
         <ul>
           <li>
@@ -218,8 +233,13 @@ const DaskTopMenu = () => {
         <div className="dropdown-btn">
           <span className="" />
         </div>
+      </li> */}
+                  <li>
+        <Link legacyBehavior href="/404">
+          Blog
+        </Link>
       </li>
-      <li className="dropdown">
+      {/* <li className="dropdown">
         <a href="#">blog</a>
         <ul>
           <li>
@@ -241,7 +261,7 @@ const DaskTopMenu = () => {
         <div className="dropdown-btn">
           <span className="" />
         </div>
-      </li>
+      </li> */}
     </ul>
   );
 };
@@ -250,11 +270,11 @@ const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
   const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   const multiMenuSet = (value) =>
-      setMultiMenu(multiMenu === value ? "" : value),
+    setMultiMenu(multiMenu === value ? "" : value),
     multiMenuActiveLi = (value) =>
       value === multiMenu ? { display: "block" } : { display: "none" };
   return (

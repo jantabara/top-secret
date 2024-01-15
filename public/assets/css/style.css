@@ -503,7 +503,6 @@ a.theme-btn {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  text-transform: capitalize;
   border: 1px solid var(--ygency-border-color);
 }
 
@@ -12366,15 +12365,16 @@ blockquote .blockquote-footer:before {
 .why-choose-item-two .icon .icon-bottom-shape {
   height: 80px;
   width: 2px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#55E6A5), to(rgba(255, 255, 255, 0)));
-  background: -webkit-linear-gradient(top, #55E6A5 0%, rgba(255, 255, 255, 0) 100%);
-  background: -o-linear-gradient(top, #55E6A5 0%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(180deg, #55E6A5 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--ygency-primary-color)), to(rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(top, var(--ygency-primary-color) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(top, var(--ygency-primary-color) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(180deg, var(--ygency-primary-color) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .why-choose-item-two .content h4 {
   font-size: 22px;
   margin-bottom: 13px;
+  font-weight: 400;
 }
 
 /* Features Three */
@@ -14913,10 +14913,15 @@ blockquote .blockquote-footer:before {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
-.fa-angle-double-up {
-  color: white;
+.fa-angle-double-up, .fa-check, .flaticon-right-quote {
+  color: white !important;
 }
 
 .why-choose-area {
   background-color: white;
+}
+
+.testimonial-two-dots .slick-dots .swiper-pagination-bullet-active,
+.testimonial-three-dots .slick-dots .swiper-pagination-bullet-active {
+  background: var(--ygency-primary-color);
 }

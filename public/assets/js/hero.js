@@ -2,7 +2,7 @@
   const firstWord = document.querySelector('#hero-text .hero-content-first')
   const secondWord = document.querySelector('#hero-text .hero-content-second')
   const thirdWord = document.querySelector('#hero-text .hero-content-third')
-  const rate = 4500
+  const rate = 2500
 
   if (!firstWord || !secondWord || !thirdWord) { return; }
 
