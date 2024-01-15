@@ -197,7 +197,7 @@ const Index = () => {
             <div className="col-xl-6">
               <div className="what-we-do-image mb-55 wow fadeInRight delay-0-2s">
                 <img
-                  src="assets/images/services/what-we-do.jpg"
+                  src="assets/images/services/what-we-do.png"
                   alt="What We Do"
                 />
               </div>
