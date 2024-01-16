@@ -33,15 +33,9 @@ const DefaultFooter = ({ dark }) => {
                 <a target="_blank" href="https://www.instagram.com/8digitclub/">
                   <i className="fab fa-instagram" /> <span>Instagram</span>
                 </a>
-                <a href="#">
+                <a target="_blank" href="https://www.linkedin.com/company/eight-digit-club/">
                   <i className="fab fa-linkedin" /> <span>LinkedIn</span>
                 </a>
-                {/* <a href="#">
-                  <i className="fab fa-dribbble" /> <span>Dribbble</span>
-                </a>
-                <a href="#">
-                  <i className="fab fa-behance" /> <span>Behance</span>
-                </a> */}
               </div>
             </div>
           </div>

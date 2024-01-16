@@ -5610,26 +5610,26 @@ h6,
 
 @media only screen and (max-width: 991px) {
   .hero-content h1 {
-    font-size: 115px;
+    font-size: 96px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .hero-content h1 {
-    font-size: 85px;
+    font-size: 72px;
     margin-bottom: -30px;
   }
 }
 
 @media only screen and (max-width: 479px) {
   .hero-content h1 {
-    font-size: 70px;
+    font-size: 48px;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .hero-content h1 .hero-content-first {
-    font-size: 50px;
+    font-size: 48px;
     max-width: 250px;
   }
 }

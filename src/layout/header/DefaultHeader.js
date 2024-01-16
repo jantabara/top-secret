@@ -38,12 +38,13 @@ const DefaultHeader = ({ singleMenu, dark }) => {
             {/* <NavSearch /> */}
             {/* Menu Button */}
             <div className="menu-btns">
-              {/* menu sidbar */}
+              {/* menu sidbar
               <div className="menu-sidebar">
                 <button>
                   <img src="assets/images/icons/toggler-white.svg" alt="Toggler" />
                 </button>
               </div>
+              */}
             </div>
           </div>
         </div>

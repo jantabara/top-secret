@@ -13,7 +13,7 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero Section Start */}
-      <section className="hero-area pt-200 rpt-150 rel z-1">
+      <section className="hero-area pt-200 rpt-150 rpb-100 rel z-1">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 p-0">
@@ -28,10 +28,10 @@ const Index = () => {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="hero-bottom-image">
+          <div className="hero-bottom-image rpt-60">
             <img src="assets/images/hero/hero.png" alt="Hero" />
             <div className="hero-social">
-              <a href="#">
+              <a href="https://www.linkedin.com/company/eight-digit-club/">
                 <i className="fab fa-linkedin" /> <span>LinkedIn</span>
               </a>
               <a target="_blank" href="https://www.instagram.com/8digitclub/">
@@ -46,7 +46,7 @@ const Index = () => {
       </section>
       {/* Hero Section End */}
       {/* About Us Area start */}
-      <section id="about" className="about-area py-100 mt-30 rpt-100 rel z-1">
+      <section id="about" className="about-area py-100 mt-30 rpt-20 rel z-1">
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-xl-5 col-lg-3">
@@ -223,8 +223,16 @@ const Index = () => {
               <span className="text">React</span>
             </div>
             <div className="skill-item">
+              <img src="assets/images/skills/skillTypeScript.png" alt="Skill Icon" />
+              <span className="text">TypeScript</span>
+            </div>
+            <div className="skill-item">
               <img src="assets/images/skills/skill4.png" alt="Skill Icon" />
-              <span className="text">javascript</span>
+              <span className="text">JavaScript</span>
+            </div>
+            <div className="skill-item">
+              <img src="assets/images/skills/skillApollo.png" alt="Skill Icon" />
+              <span className="text">Apollo GraphQL</span>
             </div>
             <div className="skill-item">
               <img src="assets/images/skills/skill1.png" alt="Skill Icon" />
@@ -385,7 +393,9 @@ const Index = () => {
               <span className="serial-number">01</span>
               <h4>
                 <Link legacyBehavior href="/404">
-                  <a>Taky to nehuntuju <br /> <span className="ml-2 meta d-inline-block">iOS & Android aplikace</span></a>
+                  <a target="_blank" href="https://apps.apple.com/cz/app/taky-to-nehuntuju/id6451248383">
+                    Taky to nehuntuju <br /> <span className="ml-2 meta d-inline-block">iOS & Android aplikace</span>
+                  </a>
                 </Link>
               </h4>
             </div>
@@ -397,7 +407,7 @@ const Index = () => {
             </div>
             <div className="right-btn">
               <Link legacyBehavior href="/404">
-                <a className="details-btn">
+                <a target="_blank" className="details-btn" href="https://apps.apple.com/cz/app/taky-to-nehuntuju/id6451248383">
                   <i className="fal fa-long-arrow-right" />
                 </a>
               </Link>
