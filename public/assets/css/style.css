@@ -5577,6 +5577,22 @@ h6,
   animation: zoomInOut 5s infinite;
 }
 
+.hero-area {
+  min-height: 600px;
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-area {
+    min-height: 480px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .hero-area {
+    min-height: 340px;
+  }
+}
+
 .hero-bg {
   z-index: -1;
   position: fixed;
@@ -14926,4 +14942,11 @@ blockquote .blockquote-footer:before {
 .testimonial-two-dots .slick-dots .swiper-pagination-bullet-active,
 .testimonial-three-dots .slick-dots .swiper-pagination-bullet-active {
   background: var(--ygency-primary-color);
+}
+
+@media only screen and (max-width: 479px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

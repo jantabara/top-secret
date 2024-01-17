@@ -28,7 +28,7 @@ const Index = () => {
           </div>
         </div>
         <div className="container-fluid">
-          <div className="hero-bottom-image rpt-60">
+          <div className="hero-bottom-image rpt-60 d-none d-xl-block">
             <img src="assets/images/hero/hero.png" alt="Hero" />
             <div className="hero-social">
               <a href="https://www.linkedin.com/company/eight-digit-club/">
