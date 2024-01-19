@@ -63,8 +63,8 @@ body {
   font-family: var(--ygency-primary-font);
   --ygency-primary-font: Inter;
   --ygency-secondary-font: Inter;
-  --ygency-primary-color-06: #5ab7c799;
-  --ygency-primary-color: #5ab7c7;
+  --ygency-primary-color-06: #00422599;
+  --ygency-primary-color: #004225;
   /* #002366, #004225, 4C1C24, FFA500 */
   --ygency-secondary-color: #02050A;
   --ygency-tertiary-color: #F8FAFD;
